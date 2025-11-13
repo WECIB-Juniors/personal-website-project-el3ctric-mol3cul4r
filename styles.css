@@ -5,3 +5,46 @@ Main Brand Color - #876A74;
 Dark Accent - #B14156;
 Dark Shades - #221724;
 */
+
+* {
+    box-sizing: border-box
+}
+
+* {
+    color: #876A74;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:22px;
+}
+.name {
+    color: #B14156;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* YOU STILL HAVE TO FIX YOUR PFP!!!! */
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #83829A;
+    position: fixed;
+    width: 100%;
+    top: 0
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #F4F7F5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #221724;
+}
