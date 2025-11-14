@@ -7,11 +7,8 @@ Dark Shades - #221724;
 */
 
 * {
-    box-sizing: border-box
-}
-
-* {
-    color: #876A74;
+    box-sizing: border-box;
+    color: #221724;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:22px;
 }
@@ -74,6 +71,7 @@ img {
     width: 21%;
     height: 800px;
     background-color: #221724;
+    padding:20px;
 }
 
 .row:after {
@@ -89,14 +87,19 @@ img {
 }
 
 #skills {
+    background-color: #876A74;
 }
 #bio {
-    background-color: #221724;
+    background-color: #B14156;
     margin-left: 75px;
     width: 50%
 }
 
 #projects {
-    background-color: #221724;
+    background-color: #876A74;
     float: right;
+}
+
+footer {
+    clear: both;
 }
